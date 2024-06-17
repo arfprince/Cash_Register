@@ -3,11 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cash-Register</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <main>
+        <h1>Cash Register Project</h1>
+        <div id="status">
+            
+        </div>
+        <div id="purchasing">
+            <p>Enter cash from customer : </p>
+            <input id="input" type="number">
+            <button id="purchase"> Purchase </button>
+        </div>
+        <div id="register-mechine">
+            <div id="top">
+                <div id="inner-top">
+                    <p>Total: $3.26</p>
+                </div>
+            </div>
+            <div id="middle1"></div>
+            <div id="middle2">
+                <div id="left">
+                    <div id="matrix">
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                    </div>
+                </div>
+                <div id="right">
+                    <h4>Change in drawer:</h4>
+                    <p id="pennies"> Pennies: </p>
+                    <p id="nickles">Nickles:</p>
+                    <p id="dimes">Dimes:</p>
+                    <p id="quarters">Quarters:</p>
+                    <p id="one">One:</p>
+                    <p id="five">Five:</p>
+                    <p id="ten">Ten:</p>
+                    <p id="twenties">Twenties:</p>
+                    <p id="hundreds">Hundreds:</p>
+                </div>
+            </div>
+            <div id="bottom">
+                <div id="dot"></div>
+            </div>
+        </div>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
